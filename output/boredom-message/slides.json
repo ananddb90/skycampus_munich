@@ -1,0 +1,28 @@
+{
+  "topic": "Is Boredom Trying to Tell You Something?",
+  "slug": "boredom-message",
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Is boredom trying to tell you something?"
+    },
+    {
+      "role": "body",
+      "text": "It's just thought on repeat, with no *love* left in it."
+    },
+    {
+      "role": "body",
+      "text": "The fix isn't a new distraction. It's going deeper into the same one."
+    },
+    {
+      "role": "body",
+      "text": "Even love repeats itself in every letter, and never gets old."
+    },
+    {
+      "role": "closing",
+      "text": "Push through the boredom and you meet yourself.",
+      "cta": "Stay one more minute before you reach for your phone."
+    }
+  ],
+  "background": "#E3E9DC"
+}

@@ -1,0 +1,42 @@
+{
+  "topic": "Uncertainty",
+  "slug": "uncertainty-is-freedom",
+  "source": {
+    "book": "An Intimate Note to the Sincere Seeker \u2014 Gurudev Sri Sri Ravi Shankar",
+    "chapter": "Uncertainty"
+  },
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Why does uncertainty feel so unbearable?"
+    },
+    {
+      "role": "body",
+      "text": "Because you've placed your certainty in the wrong place."
+    },
+    {
+      "role": "body",
+      "text": "The world was never meant to be certain. It's *always* changing."
+    },
+    {
+      "role": "body",
+      "text": "What doesn't change is the one who's watching it change. You."
+    },
+    {
+      "role": "body",
+      "text": "Rely on that, and the world's uncertainty stops being a threat."
+    },
+    {
+      "role": "body",
+      "text": "Being certain that everything is uncertain? That's actually *freedom*."
+    },
+    {
+      "role": "closing",
+      "text": "So stop bracing for a stability that was never there",
+      "cta": "Let the ground move. You don't have to."
+    }
+  ],
+  "style": "solid",
+  "accent": "#4A6B57",
+  "background": "#EFE1CE"
+}

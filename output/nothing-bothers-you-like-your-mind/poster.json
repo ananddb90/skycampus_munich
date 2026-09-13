@@ -1,0 +1,9 @@
+{
+  "topic": "Nothing in the World Can Bother You as Much as Your Own Mind",
+  "slug": "nothing-bothers-you-like-your-mind",
+  "quote": "Nothing in the world can bother you as much as your own mind.",
+  "subline": "— Sri Sri Ravi Shankar",
+  "background_image": "output/nothing-bothers-you-like-your-mind/background.png",
+  "quote_zone": {"top": 380, "left": 90, "width": 470},
+  "subline_zone": {"top": 780, "left": 90, "width": 420, "align": "left"}
+}

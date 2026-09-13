@@ -1,0 +1,9 @@
+{
+  "topic": "Joy Is Never Tomorrow, It Is Always Now",
+  "slug": "joy-is-always-now",
+  "quote": "But joy is never tomorrow; it is always now.",
+  "subline": "— Sri Sri Ravi Shankar",
+  "background_image": "output/joy-is-always-now/background.png",
+  "quote_zone": {"top": 780, "left": 90, "width": 390},
+  "subline_zone": {"top": 1080, "left": 90, "width": 410, "align": "left"}
+}

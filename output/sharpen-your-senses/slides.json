@@ -1,0 +1,32 @@
+{
+  "topic": "The Nature of the Five Senses is Knowledge",
+  "slug": "sharpen-your-senses",
+  "source": {
+    "book": "An Intimate Note to the Sincere Seeker \u2014 Gurudev Sri Sri Ravi Shankar",
+    "chapter": "The Nature of the Five Senses is Knowledge"
+  },
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Did you know every cell in your body can see, hear and feel?"
+    },
+    {
+      "role": "body",
+      "text": "Not just your eyes or ears. Every single cell carries that same *potential*."
+    },
+    {
+      "role": "body",
+      "text": "That's why people who lose one sense say the others grow sharper."
+    },
+    {
+      "role": "closing",
+      "text": "You don't have to lose a sense to sharpen it",
+      "cta": "Just sit in silence, and notice what's already there."
+    }
+  ],
+  "style": "duo",
+  "accent": "#8B5E3C",
+  "background_top": "#DCE6EA",
+  "background_bottom": "#E7E0EC",
+  "split_ratio": 34
+}

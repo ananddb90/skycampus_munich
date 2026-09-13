@@ -1,0 +1,28 @@
+{
+  "topic": "Is Your Memory Helping You, or Holding You Hostage?",
+  "slug": "memory-hindrance-blessing",
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Is your memory helping you, or holding you hostage?"
+    },
+    {
+      "role": "body",
+      "text": "Remembering who you really are? That's a *gift*."
+    },
+    {
+      "role": "body",
+      "text": "Remembering every old hurt, every old high? That's a cage."
+    },
+    {
+      "role": "body",
+      "text": "Same memory, two very different jobs."
+    },
+    {
+      "role": "closing",
+      "text": "Use it to remember yourself, not to relive your history.",
+      "cta": "What memory are you ready to put down?"
+    }
+  ],
+  "background": "#E0E7E4"
+}

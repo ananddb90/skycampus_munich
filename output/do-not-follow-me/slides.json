@@ -1,0 +1,38 @@
+{
+  "topic": "Do Not Follow Me",
+  "slug": "do-not-follow-me",
+  "source": {
+    "book": "An Intimate Note to the Sincere Seeker \u2014 Gurudev Sri Sri Ravi Shankar",
+    "chapter": "Do Not Follow Me"
+  },
+  "slides": [
+    {
+      "role": "cover",
+      "text": "What if your teacher never wanted followers?"
+    },
+    {
+      "role": "body",
+      "text": "A guru who's ahead of you can only lead you in circles."
+    },
+    {
+      "role": "body",
+      "text": "The real one stands *behind* you, pushing you forward."
+    },
+    {
+      "role": "body",
+      "text": "Not to be followed. To free you from needing to follow."
+    },
+    {
+      "role": "body",
+      "text": "You've spent long enough being the *sheep*."
+    },
+    {
+      "role": "closing",
+      "text": "It's time to move like a lion",
+      "cta": "No one to follow. Only yourself to become."
+    }
+  ],
+  "style": "solid",
+  "accent": "#9C6B9E",
+  "background": "#ECE0E5"
+}

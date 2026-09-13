@@ -1,0 +1,9 @@
+{
+  "topic": "Today Is a Gift, That's Why It's Called the Present",
+  "slug": "today-is-a-gift",
+  "quote": "Today is a gift from God - that is why it is called the present.",
+  "subline": "— Sri Sri Ravi Shankar",
+  "background_image": "output/today-is-a-gift/background.png",
+  "quote_zone": {"top": 40, "left": 90, "width": 900},
+  "subline_zone": {"top": 1080, "right": 90, "width": 400, "align": "right"}
+}

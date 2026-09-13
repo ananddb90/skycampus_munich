@@ -1,0 +1,166 @@
+{
+  "src/An_intimate_note_to_the_sincere_seeker_-_Gurudev_Sri_Sri_Ravishankar.pdf": [
+    {
+      "topic": "Do You Test God, or Does God Test You?",
+      "slug": "do-you-test-god",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Why Do You Only Doubt the Good Things in Your Life?",
+      "slug": "why-doubt-good-things",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "What If Silence Isn't the Absence of Anything?",
+      "slug": "silence-is",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Why Do We Cling to Pain But Let Go of Joy So Easily?",
+      "slug": "cling-to-pain-let-go-of-joy",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Is Boredom Trying to Tell You Something?",
+      "slug": "boredom-message",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "What If Your Attachments Are Why You Can't Breathe Easy?",
+      "slug": "attachments-and-breath",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Ever Notice How Judgment Sneaks In Even When You're Trying Not To Judge?",
+      "slug": "judge-lightly",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Why Are Confident People Rarely Humble, and Humble People Rarely Confident?",
+      "slug": "confidence-with-humility",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Is Your Memory Helping You, or Holding You Hostage?",
+      "slug": "memory-hindrance-blessing",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Why Does Rushing Rob You of the Very Thing You're Rushing Toward?",
+      "slug": "wake-up-slow-down",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "What If You're Using Free Will and Destiny Backwards?",
+      "slug": "free-will-and-destiny",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "This Hard Season Isn't Breaking You, It's Shining You",
+      "slug": "shining-you",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "What Stands Between You and Me Is Your Self-Image",
+      "slug": "drop-your-self-image",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Do Not Follow Me",
+      "slug": "do-not-follow-me",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Loyalty",
+      "slug": "loyalty-begins-with-yes",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Uncertainty",
+      "slug": "uncertainty-is-freedom",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "The Nature of the Five Senses is Knowledge",
+      "slug": "sharpen-your-senses",
+      "date": "2026-09-09"
+    },
+    {
+      "topic": "Desire Kills Joy",
+      "slug": "desire-kills-joy",
+      "date": "2026-09-09"
+    }
+  ],
+  "backgrounds": {
+    "last": "#DCE6EA",
+    "history": [
+      "#ECE0E5",
+      "#E7E0EC",
+      "#E0E7E4",
+      "#EFE1CE",
+      "#E3E9DC",
+      "#E7E0EC",
+      "#E0E7E4",
+      "#ECE0E5",
+      "#E0E7E4",
+      "#F6F1E7",
+      "#E3E9DC",
+      "#ECE0E5",
+      "#F6F1E7/#EFE1CE",
+      "#EFE1CE",
+      "#DCE6EA/#E7E0EC",
+      "#DCE6EA"
+    ],
+    "last_duo": [
+      "#DCE6EA",
+      "#E7E0EC"
+    ]
+  },
+  "poster": {
+    "last_background": "meditation-branch-sun",
+    "history": [
+      "meditation-branch-sun",
+      "reaching-hills-sun",
+      "meditation-branch-sun"
+    ]
+  },
+  "attributed_quotes": [
+    {
+      "quote": "What stands between you and me is your self-image.",
+      "source": "An Intimate Note to the Sincere Seeker (book)",
+      "slug": "drop-your-self-image",
+      "date": "2026-09-09"
+    },
+    {
+      "quote": "But joy is never tomorrow; it is always now.",
+      "source": "Goodreads (Celebrating Silence)",
+      "slug": "joy-is-always-now",
+      "date": "2026-09-09"
+    },
+    {
+      "quote": "Nothing in the world can bother you as much as your own mind.",
+      "source": "Goodreads",
+      "slug": "nothing-bothers-you-like-your-mind",
+      "date": "2026-09-09"
+    },
+    {
+      "quote": "Today is a gift from God - that is why it is called the present.",
+      "source": "Goodreads (Celebrating Silence)",
+      "slug": "today-is-a-gift",
+      "date": "2026-09-09"
+    }
+  ],
+  "style": {
+    "last": "solid"
+  },
+  "accents": {
+    "last": "#4A6B57",
+    "history": [
+      "#9C6B9E",
+      "#5B6E8C",
+      "#4A6B57",
+      "#8B5E3C",
+      "#4A6B57"
+    ]
+  }
+}

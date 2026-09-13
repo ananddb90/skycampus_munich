@@ -1,0 +1,34 @@
+{
+  "topic": "Desire Kills Joy",
+  "slug": "desire-kills-joy",
+  "source": {
+    "book": "An Intimate Note to the Sincere Seeker \u2014 Gurudev Sri Sri Ravi Shankar",
+    "chapter": "Desire Kills Joy"
+  },
+  "slides": [
+    {
+      "role": "cover",
+      "text": "What if the thing you're chasing is what's keeping happiness away?"
+    },
+    {
+      "role": "body",
+      "text": "Desire kills joy. And yet every desire is aimed at joy."
+    },
+    {
+      "role": "body",
+      "text": "No one has ever wished for *unhappiness*. Not once, not ever."
+    },
+    {
+      "role": "body",
+      "text": "So when joy disappears, look closer. Desire is usually hiding right there."
+    },
+    {
+      "role": "closing",
+      "text": "The one who masters desire is called a conqueror",
+      "cta": "Not because they got everything. Because they stopped needing to."
+    }
+  ],
+  "style": "solid",
+  "accent": "#4A6B57",
+  "background": "#DCE6EA"
+}

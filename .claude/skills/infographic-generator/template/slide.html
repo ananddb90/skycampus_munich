@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>slide</title>
+<style>
+  @font-face {
+    font-family: "Poppins";
+    src: url("{{ font_extrabold }}") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("{{ font_semibold }}") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: url("{{ font_medium }}") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+  }
+
+  :root {
+    --paper: {{ bg_bottom }};
+    --ink: #1C1A17;
+    --ink-soft: rgba(28, 26, 23, 0.64);
+    --ink-faint: rgba(28, 26, 23, 0.36);
+    --accent: {{ accent_color }};
+
+    --margin-left: 72px;
+    --margin-right: 72px;
+    --margin-top: 88px;
+    --margin-bottom: 96px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    width: 1080px;
+    height: 1350px;
+    background: var(--paper);
+    overflow: hidden;
+  }
+
+  body {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+  }
+
+  {% if bg_style == "duo" %}
+  .bg-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: {{ split_ratio }}%;
+    background: {{ bg_top }};
+  }
+  {% endif %}
+
+  .folio {
+    position: absolute;
+    top: var(--margin-top);
+    right: var(--margin-right);
+    width: 70px;
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: var(--ink-faint);
+  }
+
+  .handle {
+    position: absolute;
+    right: var(--margin-right);
+    bottom: var(--margin-bottom);
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--ink-soft);
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: var(--margin-left);
+    right: var(--margin-right);
+    max-width: 900px;
+    transform: translateY(-50%);
+  }
+
+  .statement {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: var(--statement-size, 76px);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  .statement .accent {
+    color: var(--accent);
+  }
+
+  .cta-wrap {
+    margin-top: 40px;
+  }
+
+  .cta {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 1.45;
+    color: var(--ink-soft);
+    max-width: 620px;
+    text-wrap: pretty;
+  }
+
+  .end-mark {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-left: 12px;
+    transform: translateY(-4px);
+  }
+</style>
+</head>
+<body>
+
+  {% if bg_style == "duo" %}<div class="bg-top"></div>{% endif %}
+
+  <div class="folio">{{ folio }}</div>
+
+  <div class="content">
+    <div class="statement" data-fit="statement" data-max="76" data-min="52" data-max-lines="7">{{ statement_html | safe }}{% if role == "closing" %}<span class="end-mark"></span>{% endif %}</div>
+    {% if role == "closing" and cta %}
+    <div class="cta-wrap">
+      <div class="cta">{{ cta }}</div>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="handle">— @skycampusmunich</div>
+
+<script>
+window.__fit = function () {
+  const results = [];
+  const nodes = document.querySelectorAll("[data-fit]");
+  nodes.forEach((el) => {
+    const name = el.getAttribute("data-fit");
+    const max = parseInt(el.getAttribute("data-max"), 10);
+    const min = parseInt(el.getAttribute("data-min"), 10);
+    const maxLines = parseInt(el.getAttribute("data-max-lines"), 10);
+    let size = max;
+    let lines = countLines(el, size);
+    while (lines > maxLines && size > min) {
+      size -= 2;
+      lines = countLines(el, size);
+    }
+    el.style.setProperty("--statement-size", size + "px");
+    el.style.fontSize = size + "px";
+    lines = countLines(el, size);
+    results.push({
+      block: name,
+      finalSize: size,
+      lines: lines,
+      overflow: lines > maxLines,
+      maxLines: maxLines,
+      floor: min,
+    });
+  });
+  return results;
+};
+
+function countLines(el, testSize) {
+  const prev = el.style.fontSize;
+  el.style.fontSize = testSize + "px";
+  const cs = getComputedStyle(el);
+  const lineHeightPx = parseFloat(cs.fontSize) * 1.1;
+  const height = el.scrollHeight;
+  const lines = Math.max(1, Math.round(height / lineHeightPx));
+  el.style.fontSize = prev;
+  return lines;
+}
+
+window.__furniture = function () {
+  const rectOf = (sel) => {
+    const el = document.querySelector(sel);
+    if (!el) return null;
+    const r = el.getBoundingClientRect();
+    return { x: Math.round(r.x * 100) / 100, y: Math.round(r.y * 100) / 100,
+             w: Math.round(r.width * 100) / 100, h: Math.round(r.height * 100) / 100 };
+  };
+  return {
+    folio: rectOf(".folio"),
+    handle: rectOf(".handle"),
+  };
+};
+
+window.__accentCount = function () {
+  let count = document.querySelectorAll(".statement .accent").length;
+  count += document.querySelectorAll(".end-mark").length;
+  return count;
+};
+</script>
+</body>
+</html>

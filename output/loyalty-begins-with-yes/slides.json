@@ -1,0 +1,36 @@
+{
+  "topic": "Loyalty",
+  "slug": "loyalty-begins-with-yes",
+  "source": {
+    "book": "An Intimate Note to the Sincere Seeker \u2014 Gurudev Sri Sri Ravi Shankar",
+    "chapter": "Loyalty"
+  },
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Why does loyalty feel so rare these days?"
+    },
+    {
+      "role": "body",
+      "text": "Disloyalty isn't malice. It's just *opportunism* wearing a nicer name."
+    },
+    {
+      "role": "body",
+      "text": "A divided mind can't stay loyal to anything, including itself."
+    },
+    {
+      "role": "body",
+      "text": "Loyalty starts with a yes-mind \u2014 quiet, whole, unafraid to *commit*."
+    },
+    {
+      "role": "closing",
+      "text": "Say yes to something, all the way",
+      "cta": "That's where loyalty begins."
+    }
+  ],
+  "style": "duo",
+  "accent": "#5B6E8C",
+  "background_top": "#F6F1E7",
+  "background_bottom": "#EFE1CE",
+  "split_ratio": 66
+}

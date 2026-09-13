@@ -1,0 +1,28 @@
+{
+  "topic": "Why Do You Only Doubt the Good Things in Your Life?",
+  "slug": "why-doubt-good-things",
+  "slides": [
+    {
+      "role": "cover",
+      "text": "Why do you only doubt the good things in your life?"
+    },
+    {
+      "role": "body",
+      "text": "You never doubt your sadness. You accept it as *fact*."
+    },
+    {
+      "role": "body",
+      "text": "But when someone says they love you, doubt creeps in."
+    },
+    {
+      "role": "body",
+      "text": "Doubt is just standing with one foot on each shore."
+    },
+    {
+      "role": "closing",
+      "text": "So doubt the doubt, not the good.",
+      "cta": "Pick a shore and stand on it today."
+    }
+  ],
+  "background": "#E7E0EC"
+}
